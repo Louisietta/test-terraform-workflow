@@ -5,5 +5,5 @@ terraform {
 }
 resource "local file" "hello"{
   content var.hellotext
-  filename "$variables.tf"
+  filename name
 }
