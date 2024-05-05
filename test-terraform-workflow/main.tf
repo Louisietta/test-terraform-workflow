@@ -4,6 +4,6 @@ terraform {
 }
 }
 resource "local file" "hello"{
-  content var.hellotext
-  filename var.name
+  content = var.hellotext
+  filename = var.name
 }
